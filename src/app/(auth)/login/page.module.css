@@ -1,0 +1,38 @@
+/*Giriş Yap sayfasi icin gerekli olan bicimlendirme yabildi.*/
+.login{
+    text-align: center;
+    width: 180px; /* Kutunun genişliği */
+    height: 180px; /* Kutunun yüksekliği */
+    padding: 100px; /* İç içe boşluk (padding) */ /* Dış boşluk (margin) */
+    border: 1px solid grey;/* Kenarlık (border) */
+    color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:block;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.input{
+    padding: 6px;
+    border-radius: 10px;
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.button:hover{
+    background-color: white;
+    color: blue;
+}
+.parag{
+    font-size: 14px;
+}
+.link{
+    color: blue;
+    text-decoration: none;
+}
